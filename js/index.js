@@ -43,11 +43,11 @@ function carousel() {
   userName.innerHTML = reviews[count].name;  
 }
 
-var timer = 7;
+var timer = 6;
 function countdown() {
   timer--;
   if (timer < 1) {
-    timer = 5;
+    timer = 6;
     carousel()
   }
 }
