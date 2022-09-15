@@ -850,9 +850,8 @@ hr{
   section #desc{
     text-align: center;
     font-family: monospace;
-    font-size: 19px;
-    padding: 20px 30px 0 30px;
-    
+    font-size: 18px;
+    padding: 15px 20px 0 20px;
   }
   /* terms and conditions */
   .products-container .grid-container{
@@ -873,7 +872,11 @@ hr{
   /* how it works */
   .how-it-works #description{
     width: auto;
+    margin-top: 5px
   }
+  .how-it-works #how-text{
+    padding: 20px 0 0px 0;
+}
   /* grid for how it works content */
   .how-it-works .grid-container{
     display: grid;
@@ -885,16 +888,21 @@ hr{
     width: 90vw;
     margin: auto;
     display: flex;
-    margin-bottom: -10px;
+    margin-bottom: -5px;
+  }
+  .forms #fill{
+    padding: 0;
+    font-size: 18px;
   }
   #index1{
-    padding: 10px;
+    padding: 7px;
     letter-spacing: auto;
-    line-height: 12px;
+    line-height: 1px;
   }
   #index1 #description{
     font-family: monospace;
-  
+    font-size: 16px;
+    word-spacing: 0px;
   }
   .benefits-container{
     padding-bottom: 40px;
@@ -905,6 +913,14 @@ hr{
     text-align: center;
     padding: 20px 15px;
     grid-gap: 20px;
+  }
+  .part1 #terms-desc,
+  .part2 #privacy-desc{
+    font-weight: normal;
+  }
+  .how-it-works #description{
+    padding: 16px;
+    font-weight: normal;
   }
 
   /* grid for reviews */
@@ -919,9 +935,7 @@ hr{
     width: 90vw;
     background: #fff;
     border-radius: 7px;
-  
     margin: auto;
-  
   }
   .our-word #ourword{
     font-size: 1.4rem;
@@ -946,7 +960,7 @@ hr{
     text-align: center;
     font-size: 16px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding-top: 20px;
+    padding: 14px;
   }
   .jumbotron{
     height: auto;
@@ -958,6 +972,7 @@ hr{
     margin-top: 40px;
     padding: 20px;
     padding-bottom: 55px;
+    text-align: center;
   }
   .dropdown2{
     text-align: left;
@@ -969,7 +984,7 @@ hr{
     margin-top: 17px;
     font-size: 15px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 500;
+    font-weight: 400;
     border-radius: 5px;
     border: 1px solid rgb(150, 130, 150);
     cursor: pointer;
@@ -1003,6 +1018,9 @@ hr{
     grid-template-columns: 1fr;
     padding: 10px 20px;
     grid-gap: 3px;
+  }
+  .footer-container #poli{
+    padding: 15px;
   }
   .footer-container button{
     border: 1px solid transparent;
